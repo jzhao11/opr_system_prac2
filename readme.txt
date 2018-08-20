@@ -16,7 +16,7 @@ If the input (source) file does not exist, the program will be aborted. If the o
 Then the input file will be copied by repeatedly calling read() and write(). Technically, read() will read from the input file into the buffer, and write() will write from the buffer to the output file. After the file has been copied, both input and output file will be closed by using close(), and a success message will appear on the terminal to notify a normal end of program.
 
 
-# Annotation of Strace Output of the Program
+# Annotation of Strace Output of the Program:
 strace -c ./fc
 This strace command will trace and list all the system calls used during the execution of "fc". The strace output is listed as follows.
 
