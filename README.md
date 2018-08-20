@@ -1,4 +1,4 @@
-# opr_system_prac2
 # file copy
+# project for operating system
 # author: jianfei zhao
 # github: https://github.com/jzhao11
